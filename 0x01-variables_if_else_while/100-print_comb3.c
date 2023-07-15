@@ -13,13 +13,10 @@ int main(void)
 		{
 			if (i < j)
 			{
-				if (j < 57)
-				{
-					putchar(i);
-					putchar(j);
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(i);
+				putchar(j);
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
