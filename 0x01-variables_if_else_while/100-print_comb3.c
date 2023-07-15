@@ -15,11 +15,11 @@ int main(void)
 			{
 			putchar(i);
 			putchar(j);
-			}
-			if (i != 56)
+			if (j < 57)
 			{
-			putchar(',');
-			putchar(' ');
+				putchar(',');
+				putchar(' ');
+			}
 			}
 		}
 	}
