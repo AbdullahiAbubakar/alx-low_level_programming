@@ -3,7 +3,7 @@
 
 
 
-_putchar();
+int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet10x(void);
 int _islower(int c);
