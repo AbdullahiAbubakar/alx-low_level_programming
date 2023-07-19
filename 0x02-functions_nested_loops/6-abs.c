@@ -5,8 +5,10 @@
  */
 int _abs(int n)
 {
-	_putchar(n);
+	while (n != '\0')
+	{
 	_putchar(_abs(n));
 	_putchar('\n');
+	}
 	return (0);
 }
