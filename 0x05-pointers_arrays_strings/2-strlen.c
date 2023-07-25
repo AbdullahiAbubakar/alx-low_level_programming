@@ -7,6 +7,6 @@
  */
 int _strlen(char *s)
 {
-	printf("%ld", sizeof(s) - 1);
+	printf("%ld", sizeof(*s));
 	return (0);
 }
