@@ -7,8 +7,6 @@
  */
 int _strlen(char *s)
 {
-	int i;
-		
-	printf("%d", i);
+	printf("%d", *s);
 	return (0);
 }
