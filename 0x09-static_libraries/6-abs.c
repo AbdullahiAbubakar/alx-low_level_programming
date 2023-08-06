@@ -5,11 +5,5 @@
  */
 int _abs(int n)
 {
-	int i;
-	for (i = 0; i <= 4; i++)
-	{
-		_putchar(_abs(n(i)));
-	}
-	_putchar('\n');
-	return (0);
+
 }
